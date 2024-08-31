@@ -23,3 +23,6 @@
 ## Funcionalidades Sociais:
 
 - Compartilhamento em Redes Sociais: Botões para compartilhar ingressos ou eventos em plataformas como Facebook, Twitter, Instagram, etc.
+=======
+# Funcionalidades básicas
+
