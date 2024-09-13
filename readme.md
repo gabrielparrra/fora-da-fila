@@ -24,7 +24,7 @@
 
 - Compartilhamento em Redes Sociais: Botões para compartilhar ingressos ou eventos em plataformas como Facebook, Twitter, Instagram, etc.
 
-## Protótipos
+## Protótipos de alta fidelidade
 
 
 ![Tela principal](diagramas-prototipos/high-fidelity/Home.jpg)
@@ -33,5 +33,12 @@
 ![Tela de detalhes do evento](diagramas-prototipos/high-fidelity/Detalhes_Evento.jpg)
 ![Tela de home com busca ativada](diagramas-prototipos/high-fidelity/Home_Search.jpg)
 ![Tela do controle de vendas](diagramas-prototipos/high-fidelity/Painel_Vendedores.jpg)
+
+## Protótipos de baixa fidelidade
+![Tela principal](diagramas-prototipos/low-fidelity/Low_Home.jpg)
+![Tela de cadastro](diagramas-prototipos/low-fidelity/Low_Cadastro.jpg)
+![Tela de login](diagramas-prototipos/low-fidelity/Low_Login.jpg)
+
+## Diagramas
 ![Mer](diagramas-prototipos/fora-da-fila-Conceitual.png)
 
