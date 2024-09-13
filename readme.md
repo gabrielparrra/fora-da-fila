@@ -33,4 +33,5 @@
 ![Tela de detalhes do evento](diagramas-prototipos/high-fidelity/Detalhes_Evento.jpg)
 ![Tela de home com busca ativada](diagramas-prototipos/high-fidelity/Home_Search.jpg)
 ![Tela do controle de vendas](diagramas-prototipos/high-fidelity/Painel_Vendedores.jpg)
+![Mer](diagramas-prototipos/fora-da-fila-Conceitual.png)
 
