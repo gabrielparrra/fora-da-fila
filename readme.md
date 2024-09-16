@@ -1,3 +1,6 @@
+## Descrição do projeto
+O projeto é uma plataforma de revenda de ingressos, onde usuários podem comprar e vender ingressos para eventos de forma prática e segura. O sistema permite que vendedores anunciem ingressos com facilidade, enquanto compradores podem buscar e adquirir ingressos disponíveis, com opções de filtros e busca avançada.
+
 ## Funcionalidades básicas
 
 - Cadastro de Usuários: Sistema de cadastro e login para vendedores e compradores, com a opção de usar contas de redes sociais ou e-mail.
