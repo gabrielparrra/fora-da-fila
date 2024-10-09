@@ -1,0 +1,276 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+
+}
+
+header {
+    background-color: #ff5a36;
+    padding: 0px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search i {
+    color: white;
+    font-size: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.highlight {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.highlight-event {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+}
+
+.highlight-event:hover img {
+    scale: 1.1;
+    transition: ease-in-out 0.25s;
+}
+
+.highlight-event img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.event-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+.event-info h2 {
+    font-size: 24px;
+}
+
+.event-info p {
+    font-size: 18px;
+}
+
+.events h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.event-card {
+    background-color: white;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #ff5a36;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.social-media a {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    margin: 0px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+.menu-cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    gap: 30px;
+    padding-left: 75px;
+}
+
+
+.input{
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    height: 25px;
+    width: 150px;
+    margin-top: 2px;
+    margin-left:15px;
+    margin-bottom: 5px;
+    border: none;
+
+}
+.buttons{
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    height: 25px;
+    width: 75px;
+    margin-left: 5px;
+    margin-right: 15px;
+    border: none;
+}
+
+.buttons:active{
+    background-color: #f8b29c;
+    color: white;
+    border: 1px solid #333;
+
+}
+
+.card-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    gap: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.links {
+    text-decoration: none;
+    color: #ff5a36;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.links:hover {
+    color: #ff7f50;
+}
+
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+/* Responsividade */
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .event-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .highlight-event {
+        height: 200px;
+    }
+
+    .event-info h2 {
+        font-size: 20px;
+    }
+
+    .event-info p {
+        font-size: 16px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .event-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .highlight-event {
+        height: 150px;
+    }
+
+    .event-info h2 {
+        font-size: 18px;
+    }
+
+    .event-info p {
+        font-size: 14px;
+    }
+
+    nav ul {
+        gap: 5px;
+    }
+
+    .search i {
+        font-size: 16px;
+    }
+
+    footer {
+        gap: 5px;
+    }
+}

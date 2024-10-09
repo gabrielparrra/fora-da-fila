@@ -1,18 +1,92 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fora da Fila</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
 <body>
-<h2>Create Car</h2>
+<header>
+    <div class="logo">
+        <img src="img/logo.png" alt="Fora da Fila" class="logo-img">
+    </div>
+    <nav>
+        <ul class="menu-cabecalho">
+            <li><a href="#">Shows</a></li>
+            <li><a href="#">Teatro</a></li>
+            <li><a href="#">Esportes</a></li>
+            <li><a href="#">Eventos</a></li>
+        </ul>
 
-<form action="/fora-da-fila" method="post">
 
-    <label>Ingresso</label>
-    <input type="text" name="nome_ingresso" id="nome_ingresso">
 
-    <label>Numero Ingresso</label>
-    <input type="text" name="n_ingresso" id="n_ingresso">
+        <button type="submit" class="buttons">Buscar</button>
+        <!--input type="text" name="n_ingresso" id="n_ingresso" class="input-buscar" placeholder="Buscar..."-->
+        <label>
+        <a href="telas/login.html">
+            <button type="submit" class="buttons">Login</button>
+        </a>
+        </label>
+    </nav>
 
-    <button type="submit">Registrar</button>
+</header>
 
-</form>
+<main>
+    <section class="highlight">
+        <div class="highlight-event">
+            <img src="https://via.placeholder.com/600x300" alt="Péricles">
+            <div class="event-info">
+                <h2>Péricles - 20 de dezembro</h2>
+                <p>São Paulo</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="events">
+        <h3>Próximos eventos - Até 7 dias</h3>
+        <div class="event-grid">
+            <div class="event-card"></div>
+            <div class="event-card"></div>
+            <div class="event-card"></div>
+            <div class="event-card"></div>
+            <div class="event-card"></div>
+            <div class="event-card"></div>
+            <div class="event-card"></div>
+            <div class="event-card"></div>
+        </div>
+
+        <h3>Todos os eventos</h3>
+        <div class="event-grid">
+            <div class="event-card"></div>
+            <div class="event-card"></div>
+            <div class="event-card"></div>
+            <div class="event-card"></div>
+            <div class="event-card"></div>
+            <div class="event-card"></div>
+            <div class="event-card"></div>
+            <div class="event-card"></div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-menu">
+        <ul>
+            <li><a href="#">Show</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Teatro</a></li>
+            <li><a href="#">Como funciona</a></li>
+            <li><a href="#">Quem somos</a></li>
+        </ul>
+    </div>
+    <div class="social-media">
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+    </div>
+</footer>
 
 </body>
 </html>

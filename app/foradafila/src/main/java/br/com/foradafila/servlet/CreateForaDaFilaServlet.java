@@ -2,6 +2,7 @@ package br.com.carstore.servlet;
 
 import br.com.foradafila.dao.IngressoDAO;
 import br.com.foradafila.modal.Ingresso;
+import jdk.internal.org.jline.terminal.TerminalBuilder;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,6 +19,9 @@ public class CreateForaDaFilaServlet extends HttpServlet{
 
         String nomeIngresso = request.getParameter("nome_ingresso");
         String nIngresso = request.getParameter("n_ingresso");
+
+        System.out.println(nomeIngresso);
+        System.out.println(nIngresso);
 
 
         Ingresso ingresso = new Ingresso();

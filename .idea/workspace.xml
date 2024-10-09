@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c19a0040-edc0-4ea9-8fb5-da493483f59a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EstruturaDeDados/ADO1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fibonacci/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fibonacci/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fibonacci/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fibonacci/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/java/br/com/foradafila/servlet/CreateForaDaFilaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/java/br/com/foradafila/servlet/CreateForaDaFilaServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -23,13 +34,60 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Maven.foradafila [tomcat7:run].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bielp/git/fora-da-fila&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bielp\git\fora-da-fila\app\foradafila\src\main\webapp\css" />
+      <recent name="C:\Users\bielp\git\fora-da-fila\app\foradafila\src\main\webapp\img" />
+      <recent name="C:\Users\bielp\git\fora-da-fila\app\foradafila\src\main\webapp" />
+      <recent name="C:\Users\bielp\git\fora-da-fila\app\foradafila\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="foradafila [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/app/foradafila" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -48,6 +106,11 @@
       <updated>1727731790220</updated>
       <workItem from="1727731792150" duration="70000" />
       <workItem from="1727731895591" duration="288000" />
+      <workItem from="1727732441151" duration="701000" />
+      <workItem from="1727735078260" duration="1773000" />
+      <workItem from="1728079941432" duration="1374000" />
+      <workItem from="1728342336174" duration="2855000" />
+      <workItem from="1728507360782" duration="3261000" />
     </task>
     <servers />
   </component>
