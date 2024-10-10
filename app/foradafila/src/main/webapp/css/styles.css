@@ -154,11 +154,12 @@ footer {
     background-color: #f0f0f0;
     font-family: 'Roboto', sans-serif;
     height: 25px;
-    width: 150px;
+    width: 300px;
     margin-top: 2px;
     margin-left:15px;
     margin-bottom: 5px;
     border: none;
+    padding: 10px 5px;
 
 }
 .buttons{
@@ -181,7 +182,7 @@ footer {
 
 .card-login {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     width: 100%;
     font-family: 'Roboto', sans-serif;
@@ -196,15 +197,35 @@ footer {
     flex-direction: column;
 }
 
+.select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .links {
     text-decoration: none;
     color: #ff5a36;
     font-weight: bold;
     transition: color 0.3s ease;
+    padding-top: 5px;
 }
 
 .links:hover {
-    color: #ff7f50;
+    color: #131324;
+}
+
+.form-group{
+    text-align: left;
 }
 
 

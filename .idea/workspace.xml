@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19a0040-edc0-4ea9-8fb5-da493483f59a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EstruturaDeDados/ADO1.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fibonacci/.vscode/settings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fibonacci/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fibonacci/bin/App.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fibonacci/src/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/java/br/com/foradafila/servlet/CreateForaDaFilaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/java/br/com/foradafila/servlet/CreateForaDaFilaServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/webapp/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +110,7 @@
       <workItem from="1728079941432" duration="1374000" />
       <workItem from="1728342336174" duration="2855000" />
       <workItem from="1728507360782" duration="3261000" />
+      <workItem from="1728598987884" duration="3762000" />
     </task>
     <servers />
   </component>
