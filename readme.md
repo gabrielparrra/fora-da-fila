@@ -3,7 +3,7 @@ O projeto é uma plataforma de revenda de ingressos, onde usuários podem compra
 
 ## Funcionalidades básicas
 
-- Cadastro de Usuários: Sistema de cadastro e login para vendedores e compradores, com a opção de usar contas de redes sociais ou e-mail.
+- Cadastro de Usuários: Sistema de model.Cadastro e login para vendedores e compradores, com a opção de usar contas de redes sociais ou e-mail.
 
 - Listagem de Ingressos: Interface para vendedores listarem ingressos, com opções para incluir detalhes como data, local, assento, e preço.
 
@@ -31,7 +31,7 @@ O projeto é uma plataforma de revenda de ingressos, onde usuários podem compra
 
 
 ![Tela principal](diagramas-prototipos/high-fidelity/Home.jpg)
-![Tela de cadastro](diagramas-prototipos/high-fidelity/Cadastro.jpg)
+![Tela de model.Cadastro](diagramas-prototipos/high-fidelity/Cadastro.jpg)
 ![Tela de login](diagramas-prototipos/high-fidelity/Login.jpg)
 ![Tela de detalhes do evento](diagramas-prototipos/high-fidelity/Detalhes_Evento.jpg)
 ![Tela de home com busca ativada](diagramas-prototipos/high-fidelity/Home_Search.jpg)
@@ -39,7 +39,7 @@ O projeto é uma plataforma de revenda de ingressos, onde usuários podem compra
 
 ## Protótipos de baixa fidelidade
 ![Tela principal](diagramas-prototipos/low-fidelity/Low_Home.jpg)
-![Tela de cadastro](diagramas-prototipos/low-fidelity/Low_Cadastro.jpg)
+![Tela de model.Cadastro](diagramas-prototipos/low-fidelity/Low_Cadastro.jpg)
 ![Tela de login](diagramas-prototipos/low-fidelity/Low_Login.jpg)
 
 ## Diagramas

@@ -26,7 +26,7 @@
 <div class="card-login">
     <section class="login-section">
         <h2 class="text-card">Cadastro</h2>
-        <form action="login" method="post">
+        <form action="/createForaDaFila" method="post">
 
                 <!-- Campo do email -->
             <div class="form-group">
@@ -37,7 +37,7 @@
             <!-- Campo do nome -->
             <div class="form-group">
                 <label for="nome"></label>
-                <input type="text" name="noome" id="nome" class="input" placeholder="Nome" required>
+                <input type="text" name="nome" id="nome" class="input" placeholder="Nome" required>
             </div>
 
             <!-- Campo do CPF -->
@@ -67,13 +67,12 @@
                 <input type="password" name="password_confirm" id="password_confirm" class="input" placeholder="Confirme a senha" required>
             </div>
 
-            <!-- Campo tipo de cadastro -->
+            <!-- Campo tipo de model.Cadastro -->
             <div class="form-group">
-                <label for="tipo">Tipo de cadastro</label>
+                <label for="tipo">Tipo de model.Cadastro</label>
                 <select name="tipo" id="tipo" class="select">
                     <option value="padrao" id="padrao"> </option>
-                    <option value="comprador" id="comprador">Comprador</option>
-                    <option value="vendedor" id="vendedor">Vendedor</option>
+                    <option value="usuario" id="usuario">Usuário</option>
                     <option value="admin" id="admin">Admin</option>
                 </select>
             </div>
