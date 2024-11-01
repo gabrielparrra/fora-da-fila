@@ -18,8 +18,6 @@ public class ListUsuariosServlet extends HttpServlet {
         List<Cadastro> usuarios = new CadastroDAO().findAllUsuarios();
         req.setAttribute("usuarios", usuarios);
 
-
-        usuarios.forEach(usuario -> System.out.println("Usuário: " + usuario));
         req.getRequestDispatcher("/telas/dashboard.jsp").forward(req, resp);
     }
 }
