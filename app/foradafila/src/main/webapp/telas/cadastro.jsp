@@ -26,7 +26,7 @@
 <div class="card-login">
     <section class="login-section">
         <h2 class="text-card">Cadastro</h2>
-        <form action="/createForaDaFila" method="post">
+        <form action="/createUsuarioServlet" method="post">
 
                 <!-- Campo do email -->
             <div class="form-group">
@@ -37,13 +37,13 @@
             <!-- Campo do nome -->
             <div class="form-group">
                 <label for="nome"></label>
-                <input type="text" name="nome" id="nome" class="input" placeholder="Nome" required>
+                <input type="text" name="nome" id="nome" class="input" placeholder="Nome" required >
             </div>
 
             <!-- Campo do CPF -->
             <div class="form-group">
                 <label for="cpf"></label>
-                <input type="text" name="cpf" id="cpf" class="input" placeholder="CPF" required>
+                <input type="text" name="cpf" id="cpf" class="input" placeholder="CPF" required >
             </div>
 
             <!-- Campo do nascimento -->
@@ -58,7 +58,7 @@
             <!-- Campo da senha -->
             <div class="form-group">
                 <label for="password"></label>
-                <input type="password" name="password" id="password" class="input" placeholder="Senha" required>
+                <input type="password" name="password" id="password" class="input" placeholder="Senha" required >
             </div>
 
             <!-- Campo confirme a senha -->

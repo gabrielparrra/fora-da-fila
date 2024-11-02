@@ -1,15 +1,22 @@
 package model;
 
+import java.util.Date;
+
+import static java.lang.Integer.parseInt;
+
 public class Cadastro {
 
+
+    private String Id;
     private String email;
     private String nome;
     private String cpf;
-    private String nascimento;
+    private Date nascimento;
     private String password;
     private String tipo;
 
-    public Cadastro(String email, String nome, String cpf, String nascimento, String password, String tipo){
+    public Cadastro( String Id,String email, String nome, String cpf, Date nascimento, String password, String tipo) {
+        this.Id = Id;
         this.email = email;
         this.nome = nome;
         this.cpf = cpf;
@@ -17,6 +24,7 @@ public class Cadastro {
         this.password = password;
         this.tipo = tipo;
     }
+
 
     public String getEmail() {
         return email;
@@ -28,7 +36,7 @@ public class Cadastro {
     }
 
     public String getNascimento() {
-        return nascimento;
+        return String.valueOf((java.sql.Date) nascimento);
     }
 
 
@@ -46,4 +54,7 @@ public class Cadastro {
         return tipo;
     }
 
+    public String getId() {
+        return (Id);
+    }
 }
