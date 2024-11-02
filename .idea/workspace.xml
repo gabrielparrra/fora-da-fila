@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19a0040-edc0-4ea9-8fb5-da493483f59a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../EstruturaDeDados/ADO1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fibonacci/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fibonacci/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fibonacci/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fibonacci/src/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/java/servlet/ListUsuariosServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/java/servlet/ListUsuariosServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/webapp/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/cadastro.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/cadastro.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/dashboard.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +49,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ferna/git/fora-da-fila/app/foradafila/src/main/webapp",
+    "last_opened_file_path": "C:/Users/bielp/git/fora-da-fila",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -148,6 +153,9 @@
       <workItem from="1730151889634" duration="2826000" />
       <workItem from="1730237155613" duration="1087000" />
       <workItem from="1730499319041" duration="3068000" />
+      <workItem from="1730502635575" duration="90000" />
+      <workItem from="1730502733301" duration="115000" />
+      <workItem from="1730502871393" duration="3496000" />
     </task>
     <servers />
   </component>

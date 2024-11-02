@@ -10,6 +10,7 @@ body {
     background-color: #f0f0f0;
     color: #333;
 
+
 }
 
 header {
@@ -20,6 +21,48 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+
+h1{
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho da tabela */
+th {
+    background-color: #ff5a36;
+    color: #fff;
+    padding: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Células da tabela */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+}
+
+/* Estilo das linhas */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo das últimas linhas da tabela */
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* Efeito de hover */
+tr:hover {
+    background-color: #f1f1f1;
 }
 
 
