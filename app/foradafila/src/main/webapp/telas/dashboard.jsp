@@ -34,7 +34,8 @@
                         <input type="hidden" id="id" name="id" value="${usuario.id}">
                         <button type="submit">Excluir</button>
                         <span>|</span>
-                        <a href="cadastro.jsp">Update</a>
+                        <a href="/telas/update.jsp?id=${usuario.id}">Editar</a>
+
                     </form>
                 </td>
             </tr>

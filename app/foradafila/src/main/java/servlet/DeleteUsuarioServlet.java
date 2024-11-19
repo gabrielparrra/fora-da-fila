@@ -14,10 +14,19 @@ public class DeleteUsuarioServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String usuarioId = req.getParameter("Id");
+        String usuarioId = req.getParameter("id"); // Certifique-se de que o parâmetro corresponde ao formulário
 
-        new UsuarioDAO().deleteUsuarioById(usuarioId);
-        resp.sendRedirect("/find-all-usuarios");
+        if (usuarioId == null || usuarioId.isBlank()) {
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "ID do usuário não informado.");
+            return;
+        }
 
+        try {
+            new UsuarioDAO().deleteUsuarioById(usuarioId);
+            resp.sendRedirect("/find-all-usuarios");
+        } catch (Exception e) {
+            e.printStackTrace();
+            resp.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Erro ao excluir usuário.");
+        }
     }
 }

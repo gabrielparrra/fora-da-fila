@@ -1,4 +1,5 @@
 package servlet;
+
 import dao.UsuarioDAO;
 import model.Cadastro;
 
@@ -12,11 +13,11 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-@WebServlet("/createUsuarioServlet")
-public class CreateUsuarioServlet extends HttpServlet {
+@WebServlet("/updateUsuarioServlet")
+public class UpdateUsuarioServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String id = req.getParameter("Id");
+        String id = req.getParameter("id");
         String email = req.getParameter("email");
         String nome = req.getParameter("nome");
         String cpf = req.getParameter("cpf");
@@ -36,11 +37,12 @@ public class CreateUsuarioServlet extends HttpServlet {
         Cadastro cadastro = new Cadastro(id, email, nome, cpf, nascimento, password, tipo);
 
         UsuarioDAO usuarioDAO = new UsuarioDAO();
-        if (id != null && !id.isBlank()) {
-            usuarioDAO.updateUsuario(cadastro);
+        boolean isUpdated = usuarioDAO.updateUsuario(cadastro);
+
+        if (isUpdated) {
+            resp.sendRedirect("/find-all-usuarios");
         } else {
-            usuarioDAO.createCadastro(cadastro);
+            resp.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Erro ao atualizar usuário");
         }
-        resp.sendRedirect("/find-all-usuarios");
     }
 }
