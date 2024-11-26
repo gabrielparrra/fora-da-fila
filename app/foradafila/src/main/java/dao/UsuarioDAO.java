@@ -17,7 +17,7 @@ public class UsuarioDAO {
 
     // Método para criar um novo cadastro
     public void createCadastro(Cadastro cadastro) {
-        String SQL = "INSERT INTO USUARIO (EMAIL, NOME, CPF, DATA_NASCIMENTO, SENHA, TIPO) VALUES (?, ?, ?, ?, ?, ?)";
+        String SQL = "INSERT INTO USUARIO (EMAIL, NOME, CPF, SENHA, TIPO) VALUES (?, ?, ?, ?, ?)";
 
         try (Connection connection = getConnection();
              PreparedStatement preparedStatement = connection.prepareStatement(SQL)) {
@@ -25,9 +25,8 @@ public class UsuarioDAO {
             preparedStatement.setString(1, cadastro.getEmail());
             preparedStatement.setString(2, cadastro.getNome());
             preparedStatement.setString(3, cadastro.getCpf());
-            preparedStatement.setDate(4, new Date(cadastro.getNascimento().getTime())); // Conversão para SQL Date
-            preparedStatement.setString(5, cadastro.getPassword());
-            preparedStatement.setString(6, cadastro.getTipo());
+            preparedStatement.setString(4, cadastro.getPassword());
+            preparedStatement.setString(5, cadastro.getTipo());
             preparedStatement.executeUpdate();
 
             System.out.println("Cadastro realizado com sucesso.");
@@ -47,11 +46,10 @@ public class UsuarioDAO {
 
             while (resultSet.next()) {
                 Cadastro cadastro = new Cadastro(
-                        resultSet.getString("id"),
+                        resultSet.getInt("id"),
                         resultSet.getString("email"),
                         resultSet.getString("nome"),
                         resultSet.getString("cpf"),
-                        resultSet.getDate("data_nascimento"), // Converte SQL Date para Date
                         resultSet.getString("senha"),
                         resultSet.getString("tipo")
                 );
@@ -93,11 +91,10 @@ public class UsuarioDAO {
 
             if (resultSet.next()) {
                 return new Cadastro(
-                        resultSet.getString("id"),
+                        resultSet.getInt("id"),
                         resultSet.getString("email"),
                         resultSet.getString("nome"),
                         resultSet.getString("cpf"),
-                        resultSet.getDate("data_nascimento"), // Conversão para SQL Date
                         resultSet.getString("senha"),
                         resultSet.getString("tipo")
                 );
@@ -111,40 +108,22 @@ public class UsuarioDAO {
 
     // Método para atualizar um cadastro existente
     public boolean updateUsuario(Cadastro cadastro) {
-        String SQL = "UPDATE USUARIO SET EMAIL = ?, NOME = ?, CPF = ?, DATA_NASCIMENTO = ?, SENHA = ?, TIPO = ? WHERE ID = ?";
+        String sql = "UPDATE USUARIO SET email = ?, nome = ?, cpf = ?, senha = ?, tipo = ? WHERE id = ?";
 
         try (Connection connection = getConnection();
-             PreparedStatement preparedStatement = connection.prepareStatement(SQL)) {
+             PreparedStatement stmt = connection.prepareStatement(sql)) {
 
-            // Verifique os valores antes de definir no PreparedStatement
-            System.out.println("Dados enviados para atualização:");
-            System.out.println("Email: " + cadastro.getEmail());
-            System.out.println("Nome: " + cadastro.getNome());
-            System.out.println("CPF: " + cadastro.getCpf());
-            System.out.println("Data Nascimento: " + cadastro.getNascimento());
-            System.out.println("Senha: " + cadastro.getPassword());
-            System.out.println("Tipo: " + cadastro.getTipo());
-            System.out.println("ID: " + cadastro.getId());
+            stmt.setString(1, cadastro.getEmail());
+            stmt.setString(2, cadastro.getNome());
+            stmt.setString(3, cadastro.getCpf());
+            stmt.setString(4, cadastro.getPassword());
+            stmt.setString(5, cadastro.getTipo());
+            stmt.setInt(6, cadastro.getId());
 
-            // Definindo os valores
-            preparedStatement.setString(1, cadastro.getEmail());
-            preparedStatement.setString(2, cadastro.getNome());
-            preparedStatement.setString(3, cadastro.getCpf());
-            if (cadastro.getNascimento() != null) {
-                preparedStatement.setDate(4, new java.sql.Date(cadastro.getNascimento().getTime()));
-            } else {
-                preparedStatement.setNull(4, java.sql.Types.DATE);
-            }
-            preparedStatement.setString(5, cadastro.getPassword());
-            preparedStatement.setString(6, cadastro.getTipo());
-            preparedStatement.setString(7, cadastro.getId());
-
-            int rowsAffected = preparedStatement.executeUpdate();
-            System.out.println("Linhas afetadas: " + rowsAffected);
+            int rowsAffected = stmt.executeUpdate();
             return rowsAffected > 0;
 
         } catch (SQLException e) {
-            System.out.println("Erro ao atualizar usuário: " + e.getMessage());
             e.printStackTrace();
             return false;
         }

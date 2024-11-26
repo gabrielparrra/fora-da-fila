@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
+
 <div>
     <h1>Dashboard de Usuarios</h1>
+    <button class="buttons"><a href="../index.html">Home</a></button>
     <table>
         <tr>
             <th>Id</th>
             <th>Email</th>
             <th>Nome</th>
             <th>CPF</th>
-            <th>Data de Nascimento</th>
             <th>Senha</th>
             <th>Tipo</th>
             <th>Excluir</th>
@@ -26,7 +27,6 @@
                 <td>${usuario.email}</td>
                 <td>${usuario.nome}</td>
                 <td>${usuario.cpf}</td>
-                <td>${usuario.nascimento}</td>
                 <td>${usuario.password}</td>
                 <td>${usuario.tipo}</td>
                 <td>
@@ -34,7 +34,7 @@
                         <input type="hidden" id="id" name="id" value="${usuario.id}">
                         <button type="submit">Excluir</button>
                         <span>|</span>
-                        <a href="/telas/update.jsp?id=${usuario.id}">Editar</a>
+                        <a href="/telas/update.jsp?id=${usuario.id}&email=${usuario.email}&nome=${usuario.nome}&cpf=${usuario.cpf}&password=${usuario.password}&tipo=${usuario.tipo}">Editar</a>
 
                     </form>
                 </td>

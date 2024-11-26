@@ -46,12 +46,6 @@
                 <input type="text" name="cpf" id="cpf" class="input" placeholder="CPF" required >
             </div>
 
-            <!-- Campo do nascimento -->
-            <div class="form-group">
-                <label for="nascimento"></label>
-                <input type="text" name="nascimento" id="nascimento" class="input"
-                       placeholder="Data de nascimento" required onfocus="(this.type='date')">
-            </div>
 
 
 
@@ -71,7 +65,7 @@
             <div class="form-group">
                 <label for="tipo">Tipo de cadastro</label>
                 <select name="tipo" id="tipo" class="select">
-                    <option value="padrao" id="padrao"> </option>
+                    <option value=" " id=" "> </option>
                     <option value="usuario" id="usuario">Usuário</option>
                     <option value="admin" id="admin">Admin</option>
                 </select>

@@ -1,29 +1,25 @@
 package model;
 
-import java.util.Date;
-
 public class Cadastro {
 
-    private String id;
+    private int id;
     private String email;
     private String nome;
     private String cpf;
-    private Date nascimento; // Mudança para o tipo Date
     private String password;
     private String tipo;
 
-    public Cadastro(String id, String email, String nome, String cpf, Date nascimento, String password, String tipo) {
+    public Cadastro(int id, String email, String nome, String cpf, String password, String tipo) {
         this.id = id;
         this.email = email;
         this.nome = nome;
         this.cpf = cpf;
-        this.nascimento = nascimento;
         this.password = password;
         this.tipo = tipo;
     }
 
     // Getters e Setters
-    public String getId() {
+    public int getId() {
         return id;
     }
 
@@ -39,10 +35,6 @@ public class Cadastro {
         return cpf;
     }
 
-    public Date getNascimento() {
-        return nascimento;
-    }
-
     public String getPassword() {
         return password;
     }
@@ -51,7 +43,7 @@ public class Cadastro {
         return tipo;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -65,10 +57,6 @@ public class Cadastro {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
-    }
-
-    public void setNascimento(Date nascimento) {
-        this.nascimento = nascimento;
     }
 
     public void setPassword(String password) {

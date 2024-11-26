@@ -173,6 +173,15 @@ footer {
     margin-left: 10px;
 }
 
+.event-actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    gap: 30px;
+    padding-left: 75px;
+}
 .logo img {
     width: 150px;
     height: auto;
@@ -211,6 +220,31 @@ footer {
     font-family: 'Roboto', sans-serif;
     height: 25px;
     width: 75px;
+    margin-left: 5px;
+    margin-right: 15px;
+    border: none;
+}
+
+.buttons-events{
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #ff5a36;
+    font-family: 'Roboto', sans-serif;
+    height: 25px;
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 15px;
+    border: none;
+}
+
+.buttons-events:active{
+    border-radius: 4px;
+    color: black;
+    background-color: #f0f0f0;
+    border-color: #ff5a36;
+    font-family: 'Roboto', sans-serif;
+    height: 25px;
+    width: 100px;
     margin-left: 5px;
     margin-right: 15px;
     border: none;

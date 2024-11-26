@@ -3,34 +3,46 @@
 <html>
 <head>
     <title>Atualizar Usuário</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-<h1>Atualizar Usuário</h1>
+
+<div class="card-login">
+<h1 class="text-card">Atualizar Usuário</h1>
 <form action="/updateUsuarioServlet" method="post">
-    <input type="hidden" name="id" value="${usuario.id}">
+
+    <div class="form-group">
+    <input type="hidden" name="id" value="${param.id}" class="input">
     <label for="email">Email:</label>
-    <input type="text" name="email" id="email" value="${usuario.email}" required><br>
+    <input type="text" name="email" id="email" value="${param.email}" required class="input" style="width: 350px;><br>
+    </div>
 
+    <div class="form-group">
     <label for="nome">Nome:</label>
-    <input type="text" name="nome" id="nome" value="${usuario.nome}" required><br>
+    <input type="text" name="nome" id="nome" value="${param.nome}" required class="input" style="width: 350px;><br>
+    </div>
 
+    <div class="form-group">
     <label for="cpf">CPF:</label>
-    <input type="text" name="cpf" id="cpf" value="${usuario.cpf}" required><br>
+    <input type="text" name="cpf" id="cpf" value="${param.cpf}" required class="input" style="width: 350px;><br>
+    </div>
 
-    <label for="nascimento">Data de Nascimento:</label>
-    <input type="date" name="nascimento" id="nascimento" value="${usuario.nascimento}" required>
-
-
+    <div class="form-group">
     <label for="password">Senha:</label>
-    <input type="password" name="password" id="password" value="${usuario.password}" required><br>
+    <input type="password" name="password" id="password" value="${usuario.password}" required class="input" style="width: 350px;><br>
+    </div>
 
+    <div class="form-group">
     <label for="tipo">Tipo:</label>
     <select name="tipo" id="tipo">
         <option value="usuario" ${usuario.tipo == 'usuario' ? 'selected' : ''}>Usuário</option>
         <option value="admin" ${usuario.tipo == 'admin' ? 'selected' : ''}>Admin</option>
     </select><br>
+        <div class="form-group">
 
-    <button type="submit">Atualizar</button>
+    <button type="submit" class="buttons" style="margin-top: 20px;">Atualizar</button>
+
 </form>
+</div>
 </body>
 </html>
