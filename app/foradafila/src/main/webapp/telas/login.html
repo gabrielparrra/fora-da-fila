@@ -9,9 +9,9 @@
 <body>
 <header>
     <a href="../index.html">
-    <div class="logo">
-        <img src="../img/logo.png" alt="Fora da Fila" class="logo-img">
-    </div>
+        <div class="logo">
+            <img src="../img/logo.png" alt="Fora da Fila" class="logo-img">
+        </div>
     </a>
     <nav>
         <ul class="menu-cabecalho">
@@ -20,32 +20,37 @@
             <li><a href="#">Esportes</a></li>
             <li><a href="#">Eventos</a></li>
         </ul>
-
     </nav>
 </header>
-    <div class="card-login">
-        <section class="login-section">
-            <h2>Login</h2>
-            <form action="login" method="post">
+
+<div class="card-login">
+    <section class="login-section">
+        <h2>Login</h2>
+        <form action="/loginServlet" method="post"> <!-- Altere aqui para garantir que o servlet seja chamado -->
+            <div class="form-group">
+                <!-- Campo do email -->
                 <div class="form-group">
+                    <label for="username"></label>
+                    <input type="text" name="username" id="username" class="input" placeholder="Usuário" required>
+                </div>
 
-                    <!-- Campo do email -->
-                    <div class="form-group">
-                        <label for="email"></label>
-                        <input type="text" name="email" id="email" class="input" placeholder="Email" required>
-                    </div>
-
-                    <!-- Campo da senha -->
-                    <div class="form-group">
-                        <label for="password"></label>
-                        <input type="password" name="password" id="password" class="input" placeholder="Senha" required>
-                    </div>
+                <!-- Campo da senha -->
+                <div class="form-group">
+                    <label for="password"></label>
+                    <input type="password" name="password" id="password" class="input" placeholder="Senha" required>
+                </div>
                 <button type="submit" class="buttons">Login</button>
+            </div>
+        </form>
 
-            </form>
-                <a href="cadastro.jsp" class="links">Cadastre-se</a>
-        </section>
-    </div>
+        <!-- Mensagem de erro exibida caso login falhe -->
+        <c:if test="${not empty errorMessage}">
+            <p style="color: red; margin-top: 10px;">${errorMessage}</p>
+        </c:if>
+
+        <a href="cadastro.jsp" class="links">Cadastre-se</a>
+    </section>
+</div>
 
 <footer>
     <p></p>
