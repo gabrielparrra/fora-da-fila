@@ -5,22 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19a0040-edc0-4ea9-8fb5-da493483f59a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/dashboard-ingressos.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EstruturaDeDados/ADO1.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fibonacci/.vscode/settings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fibonacci/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fibonacci/bin/App.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fibonacci/src/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/java/dao/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/java/dao/UsuarioDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/java/model/Cadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/java/model/Cadastro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/java/servlet/CreateUsuarioServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/java/servlet/CreateUsuarioServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/java/servlet/UpdateUsuarioServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/java/servlet/UpdateUsuarioServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/webapp/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/cadastro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/cadastro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/dashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Jsp File" />
         <option value="HTML File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -48,34 +41,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Maven.foradafila [clean].executor": "Run",
-    "Maven.foradafila [tomcat7:run].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ferna/git/fora-da-fila",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Maven.foradafila [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.foradafila [tomcat7:run].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ferna/git/fora-da-fila&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ferna\git\fora-da-fila\app\foradafila\src\main\webapp" />
@@ -180,6 +173,8 @@
       <workItem from="1732575845370" duration="1258000" />
       <workItem from="1732577125223" duration="149000" />
       <workItem from="1732577314044" duration="1217000" />
+      <workItem from="1732665636581" duration="2286000" />
+      <workItem from="1732668043610" duration="473000" />
     </task>
     <servers />
   </component>

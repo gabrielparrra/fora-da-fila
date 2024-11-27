@@ -141,9 +141,14 @@ main {
 
 .event-card {
     background-color: white;
-    height: 150px;
+    height: 200px; /* Ajuste a altura conforme necessário */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-card:hover {
+    scale: 1.1;
+    transition: ease-in-out 0.25s;
 }
 
 footer {
@@ -235,6 +240,13 @@ footer {
     margin-left: 5px;
     margin-right: 15px;
     border: none;
+}
+
+.event-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ajuste para 'contain' para evitar corte */
+    display: block;
 }
 
 .buttons-events:active{
