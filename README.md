@@ -22,6 +22,9 @@ Fora da Fila é uma plataforma para compra e revenda de ingressos, priorizando s
 ### Cadastro Evento
 ![Cadastro de evento](https://raw.githubusercontent.com/gabrielparrra/fora-da-fila/main/diagramas-prototipos/high-fidelity/cadastro-evento.jpg)
 
+### Diagrama conceitual
+![Diagrama conceitual](https://raw.githubusercontent.com/gabrielparrra/fora-da-fila/main/diagramas-prototipos/diagrama-conceitual.jpeg)
+
 ## Tecnologias Utilizadas
 - **Frontend:** HTML, CSS
 - **Backend:** JAVA WEB
