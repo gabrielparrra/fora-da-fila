@@ -10,17 +10,17 @@ Fora da Fila é uma plataforma para compra e revenda de ingressos, priorizando s
 ## Protótipo High Fidelity
 
 ### Tela de Login/Cadastro
-![Login e Cadastro](https://github.com/gabrielparrra/fora-da-fila/tree/main/diagramas-prototipos/high-fidelity/Login.jpg)
-![Login e Cadastro](https://github.com/gabrielparrra/fora-da-fila/tree/main/diagramas-prototipos/high-fidelity/Cadastro.jpg)
+![Login e Cadastro](https://raw.githubusercontent.com/gabrielparrra/fora-da-fila/main/diagramas-prototipos/high-fidelity/Login.jpg)
+![Login e Cadastro](https://raw.githubusercontent.com/gabrielparrra/fora-da-fila/main/diagramas-prototipos/high-fidelity/Cadastro.jpg)
 
 ### Página Inicial (Home)
-![Home](https://github.com/gabrielparrra/fora-da-fila/tree/main/diagramas-prototipos/high-fidelity/Home.jpg)
+![Home](https://raw.githubusercontent.com/gabrielparrra/fora-da-fila/main/diagramas-prototipos/high-fidelity/Home.jpg)
 
 ### Tela de Detalhes do Evento
-![Detalhes de Evento](https://github.com/gabrielparrra/fora-da-fila/tree/main/diagramas-prototipos/high-fidelity/Detalhes_Evento.jpg)
+![Detalhes de Evento](https://raw.githubusercontent.com/gabrielparrra/fora-da-fila/main/diagramas-prototipos/high-fidelity/Detalhes_Evento.jpg)
 
 ### Cadastro Evento
-![Cadastro de evento](https://github.com/gabrielparrra/fora-da-fila/tree/main/diagramas-prototipos/high-fidelity/cadastro-evento.jpg)
+![Cadastro de evento](https://raw.githubusercontent.com/gabrielparrra/fora-da-fila/main/diagramas-prototipos/high-fidelity/cadastro-evento.jpg)
 
 ## Tecnologias Utilizadas
 - **Frontend:** HTML, CSS
