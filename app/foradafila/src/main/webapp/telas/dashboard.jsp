@@ -10,7 +10,9 @@
 
 <div>
     <h1>Dashboard de Usuarios</h1>
-    <button class="buttons"><a href="../index.html">Home</a></button>
+    <a href="../index.html">
+        <button class="buttons">Home</button>
+    </a>
     <table>
         <tr>
             <th>Id</th>
@@ -19,7 +21,7 @@
             <th>CPF</th>
             <th>Senha</th>
             <th>Tipo</th>
-            <th>Excluir</th>
+            <th>Funcionalidades</th>
         </tr>
         <c:forEach var="usuario" items="${usuarios}">
             <tr>
@@ -32,9 +34,9 @@
                 <td>
                     <form action="/delete-usuario" method="post">
                         <input type="hidden" id="id" name="id" value="${usuario.id}">
-                        <button type="submit">Excluir</button>
+                        <button type="submit" class="buttons-events">Excluir</button>
                         <span>|</span>
-                        <a href="/telas/update.jsp?id=${usuario.id}&email=${usuario.email}&nome=${usuario.nome}&cpf=${usuario.cpf}&password=${usuario.password}&tipo=${usuario.tipo}">Editar</a>
+                        <a style="" href="/telas/update.jsp?id=${usuario.id}&email=${usuario.email}&nome=${usuario.nome}&cpf=${usuario.cpf}&password=${usuario.password}&tipo=${usuario.tipo}">Editar</a>
 
                     </form>
                 </td>

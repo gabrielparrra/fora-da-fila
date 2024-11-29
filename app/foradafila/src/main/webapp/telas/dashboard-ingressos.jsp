@@ -10,7 +10,13 @@
 
 <div>
   <h1>Dashboard de Ingressos</h1>
-  <button class="buttons"><a href="../index.html">Home</a></button>
+  <a href="../index.html">
+  <button class="buttons">Home</button>
+  </a>
+
+  <a href="cadastro-evento.jsp">
+    <button class="buttons">Cadastrar Evento</button>
+  </a>
   <table>
     <tr>
       <th>Id</th>
@@ -19,7 +25,7 @@
       <th>Local</th>
       <th>Assento</th>
       <th>Valor</th>
-      <th>Ações</th>
+      <th>Funcionalidades</th>
     </tr>
     <c:forEach var="ingresso" items="${ingresso}">
       <tr>

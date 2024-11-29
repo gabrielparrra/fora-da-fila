@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19a0040-edc0-4ea9-8fb5-da493483f59a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/dashboard-ingressos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/dashboard-ingressos.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/foradafila/src/main/webapp/telas/dashboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagramas-prototipos/high-fidelity/Cadastro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/diagramas-prototipos/high-fidelity/Cadastro.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagramas-prototipos/high-fidelity/Checkout.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagramas-prototipos/high-fidelity/Detalhes_Evento.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/diagramas-prototipos/high-fidelity/Detalhes_Evento.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagramas-prototipos/high-fidelity/Home.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/diagramas-prototipos/high-fidelity/Home.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagramas-prototipos/high-fidelity/Home_Search.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagramas-prototipos/high-fidelity/Login.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/diagramas-prototipos/high-fidelity/Login.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagramas-prototipos/high-fidelity/Painel_Vendedores.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,40 +44,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Maven.foradafila [clean].executor": "Run",
-    "Maven.foradafila [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
-    "Maven.foradafila [org.apache.maven.plugins:maven-install-plugin:3.1.2:help].executor": "Run",
-    "Maven.foradafila [org.apache.maven.plugins:maven-install-plugin:3.1.2:install-file].executor": "Run",
-    "Maven.foradafila [org.apache.maven.plugins:maven-install-plugin:3.1.2:install].executor": "Run",
-    "Maven.foradafila [org.apache.tomcat.maven:tomcat7-maven-plugin:2.1:run].executor": "Run",
-    "Maven.foradafila [tomcat7:run].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Fernando Nascimento/git/fora-da-fila",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Maven.foradafila [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.foradafila [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.foradafila [org.apache.maven.plugins:maven-install-plugin:3.1.2:help].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.foradafila [org.apache.maven.plugins:maven-install-plugin:3.1.2:install-file].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.foradafila [org.apache.maven.plugins:maven-install-plugin:3.1.2:install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.foradafila [org.apache.tomcat.maven:tomcat7-maven-plugin:2.1:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.foradafila [tomcat7:run].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Fernando Nascimento/git/fora-da-fila&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ferna\git\fora-da-fila\app\foradafila\src\main\webapp" />
@@ -124,8 +131,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
       </set>
     </attachedChunks>
   </component>
@@ -180,6 +187,9 @@
       <workItem from="1732743685173" duration="491000" />
       <workItem from="1732744199773" duration="319000" />
       <workItem from="1732744549184" duration="6066000" />
+      <workItem from="1732792797705" duration="2447000" />
+      <workItem from="1732795774299" duration="2000" />
+      <workItem from="1732879860559" duration="1127000" />
     </task>
     <servers />
   </component>
