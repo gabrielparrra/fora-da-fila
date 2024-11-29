@@ -10,19 +10,17 @@ Fora da Fila é uma plataforma para compra e revenda de ingressos, priorizando s
 ## Protótipo High Fidelity
 
 ### Tela de Login/Cadastro
-![Login e Cadastro](https://github.com/gabrielparrra/fora-da-fila/raw/main/prototipos/high-fidelity/login.png)
+![Login e Cadastro](https://github.com/gabrielparrra/fora-da-fila/tree/main/diagramas-prototipos/high-fidelity/Login.jpg)
+![Login e Cadastro](https://github.com/gabrielparrra/fora-da-fila/tree/main/diagramas-prototipos/high-fidelity/Cadastro.jpg)
 
 ### Página Inicial (Home)
-![Página Inicial](https://github.com/gabrielparrra/fora-da-fila/raw/main/prototipos/high-fidelity/home.png)
+![Home](https://github.com/gabrielparrra/fora-da-fila/tree/main/diagramas-prototipos/high-fidelity/Home.jpg)
 
 ### Tela de Detalhes do Evento
-![Detalhes do Evento](https://github.com/gabrielparrra/fora-da-fila/raw/main/prototipos/high-fidelity/detalhes-evento.png)
+![Detalhes de Evento](https://github.com/gabrielparrra/fora-da-fila/tree/main/diagramas-prototipos/high-fidelity/Detalhes_Evento.jpg)
 
-### Tela de Pagamento
-![Pagamento](https://github.com/gabrielparrra/fora-da-fila/raw/main/prototipos/high-fidelity/pagamento.png)
-
-### Confirmação de Compra
-![Confirmação de Compra](https://github.com/gabrielparrra/fora-da-fila/raw/main/prototipos/high-fidelity/confirmacao-compra.png)
+### Cadastro Evento
+![Cadastro de evento](https://github.com/gabrielparrra/fora-da-fila/tree/main/diagramas-prototipos/high-fidelity/cadastro-evento.jpg)
 
 ## Tecnologias Utilizadas
 - **Frontend:** HTML, CSS
